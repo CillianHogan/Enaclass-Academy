@@ -40,11 +40,15 @@ nav ul li a {
 }
 
 #presentacion-inicio {
-    padding: 50px 20px;
+    padding: 100px 20px;
     text-align: center;
-    background-color: #ffffff;
-    margin: 20px;
-    border-radius: 8px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Alumnos_estudiando.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0;
+    border-radius: 0;
 }
 
 .botones-principales a {
@@ -81,4 +85,25 @@ nav ul li a {
     border-radius: 8px;
     width: 300px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: var(--color-principal); 
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-copy {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    padding-top: 15px;
+    font-size: 0.9rem;
 }
