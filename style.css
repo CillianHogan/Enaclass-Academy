@@ -61,3 +61,24 @@ nav ul li a {
     background-color: #d35400;
     transition: 0.3s;
 }
+
+#servicios-academia {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.tarjeta-servicio {
+    background:white;
+    padding:20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
