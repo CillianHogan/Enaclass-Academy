@@ -166,3 +166,85 @@ footer {
     background-color: #219150 !important;
     transition: 0.3s;
 }
+
+#dashboard-estudiante {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.bienvenida-user {
+    margin-bottom: 30px;
+}
+
+.grid-estudiante {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-panel {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    border-top: 5px solid var(--color-principal); /* Detalle pro con tu morado */
+}
+
+.icono-panel {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.boton-accion {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--color-acento);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.asignatura-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 8px solid var(--color-principal);
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.materiales a {
+    display: block;
+    color: #3498db;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.estado-test {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-test {
+    background: var(--color-acento);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+#recursos-estudiante {
+    margin-bottom: 40px; 
+    margin-top: 20px;    
+}
