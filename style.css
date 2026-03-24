@@ -128,3 +128,37 @@ footer {
     color: var(--color-acento); 
     margin-bottom: 5px;
 }
+
+#contacto-ubicacion {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.info-contacto, .mapa {
+    flex: 1; 
+    min-width: 300px;
+}
+
+.mapa iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.boton-llamada {
+    background-color: #27ae60 !important; 
+}
+
+.boton-llamada:hover {
+    background-color: #219150 !important;
+    transition: 0.3s;
+}
