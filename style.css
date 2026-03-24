@@ -107,3 +107,24 @@ footer {
     padding-top: 15px;
     font-size: 0.9rem;
 }
+
+#estadisticas-academia {
+    background-color: #2c3e50;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contenedor-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.stat h3 {
+    font-size: 2.5rem;
+    color: var(--color-acento); 
+    margin-bottom: 5px;
+}
